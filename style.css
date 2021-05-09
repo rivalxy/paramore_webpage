@@ -1,0 +1,39 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Mulish", sans-serif;
+}
+
+td {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  text-align: center;
+}
+
+table {
+  margin: 0;
+  border-spacing: auto;
+  width: 100%;
+}
+
+.paragraph {
+  margin: 80px 500px;
+}
+
+.video {
+  text-align: center;
+}
+
+.video iframe {
+  width: 45%;
+  height: 500px;
+}
+
+.albums img {
+  width: 250px;
+  height: 250px;
+}
