@@ -24,6 +24,11 @@ a {
   text-decoration: none;
 }
 
+.title {
+  margin-top: 15%;
+  margin-bottom: 20%;
+}
+
 .paragraph {
   margin: 80px 500px;
 }
