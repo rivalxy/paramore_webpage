@@ -6,6 +6,7 @@
 
 h2 {
   font-family: "Mulish", sans-serif;
+  margin-bottom: 50px;
 }
 
 td {
@@ -30,8 +31,29 @@ a {
   margin-bottom: 20%;
 }
 
+.wallpaper {
+  width: 100%;
+  margin: 0;
+}
+
+.paragraph_1 {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.intro_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 150px;
+}
+
 .paragraph {
-  margin: 80px 500px;
+  margin: 150px 500px;
+  background-color: white;
 }
 
 .video {
@@ -41,6 +63,10 @@ a {
 .video iframe {
   width: 45%;
   height: 500px;
+}
+
+.albums {
+  margin: 200px 0;
 }
 
 .albums img {
