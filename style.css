@@ -1,6 +1,6 @@
 * {
   font-family: "Source Sans Pro", sans-serif;
-  margin: 20px;
+  margin: 20px; 
   text-align: center;
 }
 
@@ -21,7 +21,8 @@ table {
   width: 100%;
 }
 
-a {
+a, a:visited, a:hover {
+  color: #542e71;
   text-decoration: none;
   margin: 0;
 }
@@ -33,13 +34,16 @@ a {
 
 .wallpaper {
   width: 100%;
+  height: auto;
   margin: 0;
 }
 
 .paragraph_1 {
   position: relative;
-  margin: 0;
+  margin: 0px;
   width: 100%;
+  height: auto;
+  padding: 0;
 }
 
 .intro_text {
@@ -53,12 +57,24 @@ a {
 
 .paragraph {
   margin: 150px 500px;
-  background-color: white;
+}
+
+.paragraph_3 {
+  margin: 150px 500px;
+  padding: 80px;
+  background-color: #8c90c7;
+  color: white;
+}
+
+.paragraph_3 a, a:visited, a:hover {
+  color: #45465f;
+  text-decoration: none;
+  margin: 0;
 }
 
 .video {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 0;
 }
 
 .video iframe {
