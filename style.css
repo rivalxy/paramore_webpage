@@ -21,8 +21,8 @@ table {
   width: 100%;
 }
 
-a, a:visited, a:hover {
-  color: #542e71;
+a, a:hover, a:visited {
+  color: #45465f;
   text-decoration: none;
   margin: 0;
 }
@@ -89,4 +89,9 @@ a, a:visited, a:hover {
 .albums img {
   width: 250px;
   height: 250px;
+}
+
+.footer {
+  margin-top: 150px;
+  color: #45465f;
 }
